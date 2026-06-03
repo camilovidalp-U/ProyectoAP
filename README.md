@@ -13,6 +13,7 @@ Estudiante de Ingeniería Industrial de la Universidad de Antioquia, curso de Al
 
 ## 3. Nombre del proyecto y detalles
 PrestaFacil es un sistema de gestión de préstamos desarrollado en Python que permite registrar usuarios, artículos, préstamos, devoluciones y ventas automáticas
+Imagen del proyecto (sujeta a cambios): manos.jpeg
 
 ## 4. Licencia
 Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International
