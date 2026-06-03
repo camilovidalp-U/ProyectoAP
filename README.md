@@ -18,9 +18,6 @@ PrestaFacil es un sistema de gestión de préstamos desarrollado en Python que p
 Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International
 
 ## 5. Reporte de visión
-- Control de inventario
-- Seguimiento de préstamos
-- Generación automática de certificados y facturas## Descripción general
 **PrestaFácil** es un software de consola desarrollado en Python que permite gestionar préstamos de artículos de manera organizada y eficiente
 
 ### Objetivos del software
