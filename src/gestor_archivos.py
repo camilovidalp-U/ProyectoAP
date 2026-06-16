@@ -1,5 +1,5 @@
 """
-Módulo encargado de la persistencia de datos en archivos planos (.txt).
+Módulo encargado de la persistencia de datos en archivos planos (.txt)
 """
 
 import os
@@ -11,7 +11,7 @@ ARCHIVO_INVENTARIO = "inventario.txt"
 def guardar_usuario(usuario: clsUsuarios):
     """
     Se toma un objeto usuario y lo escribe al final del archivo usuarios.txt
-    Separamos los datos con un '|' para que no choque con comas o puntos.
+    Separamos los datos con un '|' para que no choque con comas o puntos
     """
     linea = f"{usuario.nombre}|{usuario.apellido}|{usuario.documento}|{usuario.correo}|{usuario.tiempo_prestamo}\n"
     
@@ -20,7 +20,7 @@ def guardar_usuario(usuario: clsUsuarios):
 
 def cargar_usuarios() -> dict:
     """
-    Lee el archivo usuarios.txt y reconstruye los objetos en un diccionario.
+    Lee el archivo usuarios.txt y reconstruye los objetos en un diccionario
     """
     usuarios = {}
     if not os.path.exists(ARCHIVO_USUARIOS):
@@ -42,7 +42,7 @@ def guardar_item(item: clsItem):
         f.write(linea)
 
 def cargar_inventario() -> dict:
-    """Lee inventario.txt y carga los artículos en un diccionario usando el ID como clave."""
+    """Lee inventario.txt y carga los artículos en un diccionario usando el ID como clave"""
     inventario = {}
     if not os.path.exists(ARCHIVO_INVENTARIO):
         return inventario
